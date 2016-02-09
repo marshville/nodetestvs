@@ -1,0 +1,10 @@
+{
+  "name": "nodetestvs",
+  "version": "0.0.0",
+  "description": "nodetestvs",
+  "main": "server.js",
+  "author": {
+    "name": "MarshM",
+    "email": ""
+  }
+}
