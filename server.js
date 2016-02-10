@@ -53,8 +53,8 @@ app.get('/persons/:personId', getPerson);
 var deletePerson = function (req, res) {
     if (req.person) {
         debug("Removing", req.person.firstName, req.person.lastName);
-        _.remove(personData, function (it) {
-            it.id == req.person.id;
+        _.remove(personData, function(it) {
+            return it.id === req.person.id;
         });
         debug("personData=", personData);
         var response = { message: "Deleted successfully" };
