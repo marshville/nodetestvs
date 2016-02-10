@@ -1,10 +1,20 @@
 {
-  "name": "nodetestvs",
-  "version": "0.0.0",
-  "description": "nodetestvs",
-  "main": "server.js",
-  "author": {
-    "name": "MarshM",
-    "email": ""
-  }
+    "name": "nodetestvs",
+    "version": "0.0.1",
+    "description": "Testing building MEAN app from scratch via visual studio",
+    "main": "server.js",
+    "scripts": {},
+    "author": {
+        "name": "Marshville",
+        "email": ""
+    },
+    "license": "ISC",
+    "dependencies": {
+    "body-parser": "^1.14.2",
+    "debug": "^2.2.0",
+    "express": "^4.13.4",
+    "lodash": "^2.4.1",
+    "serve-static": "^1.7.0"
+    },
+    "devDependencies": {}
 }
